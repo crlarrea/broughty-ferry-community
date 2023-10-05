@@ -593,7 +593,9 @@ h3 {
 }
 
 .btn {
-  padding: $xxs $xxxl;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   border: 2px solid $green700;
   border-radius: $xxs;
   height: $h;
